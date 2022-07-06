@@ -2,7 +2,6 @@ body {
     background-image: url('background.png');
     background-size: cover;
     margin: auto;
-    /* width: 70%; */
     margin-block-start: 5%;
     margin-block-end: 5%;
 
@@ -24,9 +23,8 @@ main {
     margin-block-end: 5%; */
     background-color: white;
     padding: 30px;
-    max-width: 800px;
+    max-width: 850px;
     border: 3px solid rgb(19, 19, 243);
-    /* border: 3px solid black; */
 }
 
 .name {
@@ -34,9 +32,7 @@ main {
     margin-block-end: 0;
     text-align: center;
     font-size: 30px;
-    margin-block-start: 5%;
-
-    /* border: 1px solid green; */
+    margin-block-start: 10px;
 }
 .section-name {
     margin: auto;
@@ -44,29 +40,31 @@ main {
     margin-block-end: 0.3em;
     text-align: left;
     font-size: 20px;
-    /* border: 1px solid green; */
 }
-.nav {
+
+nav {
+    margin: auto;
+    margin-block-start: 30px;
+}
+
+.link {
     margin: auto;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: 1px solid green; */
 }
 
-.nav>* {
+.link>* {
     padding: 0px 5px 0px 5px;
 }
 
 .box1 {
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 .box1-content {
     margin: auto;
-    /* border: 1px solid blue; */
 }
 
 .box2 {
@@ -78,14 +76,12 @@ main {
     height: 30%;
     justify-content: flex-start;
     /* justify-content: space-between; */
-    /* border: 1px solid red; */
 }
 
 .box2-content {
     /* margin: auto; */
     /* flex-wrap: wrap; */
     flex: 1 1 30px;
-    /* border: 1px solid blue; */
 }
 
 
@@ -93,7 +89,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 1px solid green; */
 }
 
 .title {
@@ -101,6 +96,8 @@ main {
 }
 
 .button1 {
+    margin: auto;
+    margin-block-end: 5px;
     float: right;
 }
 
