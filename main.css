@@ -1,6 +1,6 @@
 body {
     background-image: url('background.png');
-    background-size: cover;
+    background-size: contain;
     margin: auto;
     margin-block-start: 5%;
     margin-block-end: 5%;
@@ -47,7 +47,7 @@ nav {
     margin-block-start: 30px;
 }
 
-.link {
+.list {
     margin: auto;
     text-align: center;
     display: flex;
@@ -55,7 +55,7 @@ nav {
     justify-content: center;
 }
 
-.link>* {
+.list>* {
     padding: 0px 5px 0px 5px;
 }
 
