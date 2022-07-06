@@ -1,0 +1,108 @@
+body {
+    background-image: url('background.png');
+    background-size: contain;
+    margin: auto;
+    width: 70%;
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+    border: 3px solid rgb(19, 19, 243);
+
+
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: -1em;
+}
+
+main {
+    margin: auto;
+    /* margin-block-start: 5%;
+    margin-block-end: 5%; */
+    background-color: white;
+    padding: 30px;
+        /* border: 3px solid black; */
+}
+
+.name {
+    margin: auto;
+    margin-block-end: 0;
+    text-align: center;
+    font-size: 30px;
+    /* border: 1px solid green; */
+}
+.section-name {
+    margin: auto;
+    margin-block-start: 1em;
+    margin-block-end: 0.3em;
+    text-align: left;
+    font-size: 20px;
+    /* border: 1px solid green; */
+}
+.nav {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+.nav>* {
+    padding: 0px 5px 0px 5px;
+}
+
+.box1 {
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.box1-content {
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+.box2 {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex: 1 1 500px; */
+    height: 30%;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+
+.box2-content {
+    /* margin: auto; */
+    /* flex-wrap: wrap; */
+    flex: 1 1 30px;
+    /* border: 1px solid blue; */
+}
+
+
+.title-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+.title {
+    font-size: 17px;
+}
+
+.button1 {
+    float: right;
+}
+
+.button2 {
+    background-color: white;
+    text-align: center;
+}
